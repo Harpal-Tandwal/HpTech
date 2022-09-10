@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For RTClib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+hptechObject   KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+pack    	KEYWORD2
+lookInside  KEYWORD2
+sendJson	KEYWORD2
+setKey		KEYWORD2
+getJson		KEYWORD2
+clear       KEYWORD2
+extract		KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+
