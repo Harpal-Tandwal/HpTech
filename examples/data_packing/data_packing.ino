@@ -7,7 +7,7 @@ hptechObject  obj;
 void setup() {
   Serial.begin(115200);
 
-  obj.setKey("62fdb3f41846f14332fc614c");
+  obj.setKey("REPLACE_WITH_YOUR_SECRET_KEY");
   obj.pack("FIELD_1","VALUE_1");
   obj.pack("FIELD_2","VALUE_2");
   Serial.println(obj.lookInside());
