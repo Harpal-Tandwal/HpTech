@@ -25,7 +25,7 @@ class hptechObject{
           StaticJsonDocument<1024> doc;
 		  StaticJsonDocument<1024> doc2;
 		  JsonArray info= doc.createNestedArray("data");
-          String servername="https://hptech25.herokuapp.com";
+          String servername="https://iot-backend-xvij.onrender.com";
           String KEY="";
          
  public:
