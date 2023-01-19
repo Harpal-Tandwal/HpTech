@@ -10,7 +10,7 @@ void hptechObject::sendJson(){
     if(WiFi.status()== WL_CONNECTED){
       HTTPClient http;
 
-      const char* server="https://hptech25.herokuapp.com/espsave";
+      const char* server="https://iot-backend-xvij.onrender.com/espsave";
       String json;
       serializeJson(doc,json);
       http.begin(server);
@@ -36,7 +36,7 @@ String hptechObject::getJson(){
 	 doc2.clear();
 	 JsonArray arr_doc2 = doc2.to<JsonArray>();
      String REQ= "{\"key\":\"" + KEY +"\"}";
-     char * serverName = "https://hptech25.herokuapp.com/project_status";
+     char * serverName = "https://iot-backend-xvij.onrender.com";
      HTTPClient http;
      http.begin(serverName);
      http.addHeader("Content-Type", "application/json"); // HEADER FOR JSON POST-REQUESTS
